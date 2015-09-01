@@ -2,7 +2,7 @@
 
 # Simple test script that runs two programs against the same test cases provided through 
 # standard in. It assumes the second program is the provided solution. The script compares 
-# exit statues for both programs before comparing the standard output via diff. If either
+# exit statuses for both programs before comparing the standard output via diff. If either
 # comparison fails, the test is assumed to have failed. 
 
 # Usage: 
