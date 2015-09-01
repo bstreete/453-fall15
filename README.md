@@ -6,4 +6,4 @@ The included directories contain test inputs for the various projects.
 
 #### Usage
 
-'./check.bash <program to test> <solution> <directory containing the test files>'
+`./check.bash <program to test> <solution> <directory containing the test files>`
