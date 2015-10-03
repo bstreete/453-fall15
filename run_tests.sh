@@ -59,7 +59,7 @@ fi
 
 echo -e "\n---------------------\n     Start Tests\n---------------------"
 # Get a list of test files from the directory
-TESTS=$(ls ${TEST_DIR}/)
+TESTS=$(ls -v ${TEST_DIR}/)
 
 # Break the string into an array
 set $TESTS
