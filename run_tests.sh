@@ -84,6 +84,9 @@ for FILENAME in $TESTS ; do
 		echo -e "${RED}$FILENAME failed.${NONE}\n\tExpected $EXP_EXIT, instead returned $USER_EXIT"
 		FAILED=1
 
+	elif [ $? -eq 2 ] ; then
+		echo "Test has an invalid format."
+		FAILED=1
 	# Check output
 	else 
 		
