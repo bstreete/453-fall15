@@ -1,5 +1,6 @@
 /* 0 
  Valid cases from Piazza */
+
 int main( void){
 	while(x < 1) {
 		count = count + 1;
